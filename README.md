@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="eng","rus">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title></title>
+<title>LORDS FILMS TM</title>
 <meta name="keywords" content="" />
 <meta name="description" content="" />
 <link rel="manifest" href="{% static "manifest/manifest.json" %}"/>
@@ -14,26 +14,6 @@
 <![endif]-->
 </head>
 <body>
-<div id="root"></div>
-   <script src="/static/build/app.js"></script>
-
-   <script>
-       if ('serviceWorker' in navigator) {
-           window.addEventListener('load', function() {
-               navigator.serviceWorker.register('/service-worker.js').then(function(registration) {
-                   // Registration was successful
-               console.log('ServiceWorker registration successful with scope: ', registration.scope);
-             }, function(err) {
-               // registration failed :(
-               console.log('ServiceWorker registration failed: ', err);
-             }).catch(function(err) {
-               console.log(err)
-             });
-           });
-         } else {
-           console.log('service worker is not supported');
-         }
-   </script>
 <div id="wrapper">
 	<div id="header-wrapper">
 		<div id="header" class="container">
