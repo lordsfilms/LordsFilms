@@ -1,2 +1,0 @@
-# LordsFilms
-LordsFilms.ru
