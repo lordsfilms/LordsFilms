@@ -585,7 +585,7 @@ ul.style3 .first {
 	#welcome-wrapper
 	{
 		padding: 5em 6em 4em 6em;
-		background: #ff304d;
+		background: red;
 		font-size: 1.2em;
 		color: rgba(255,255,255,0.7);
 	}
