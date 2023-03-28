@@ -7,7 +7,7 @@ body {
 	padding: 0px;
 	background: #222222;
 	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 12pt;
+	font-size: 16pt;
 	font-weight: 400;
 	color: rgba(0,0,0,.8);
 }
@@ -199,7 +199,7 @@ hr {
 	text-decoration: none;
 	text-transform: uppercase;
 	text-align: center;
-	font-size: 26px;
+	font-size: 30px;
 	font-weight: 200;
 	color: rgba(255,255,255,0.5);
 	border: none;
