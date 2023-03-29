@@ -1,3 +1,3 @@
 <?php
-$mysql = new mysqli('localhost', 'aydo', '29092708', 'test');
+$mysql = new mysqli('%', 'aydo', '29092708', 'test');
 ?>
