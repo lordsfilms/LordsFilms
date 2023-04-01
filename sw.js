@@ -1,5 +1,5 @@
-importScripts('/idb.js');
-importScripts('/utility.js');
+importScripts('idb.js');
+importScripts('utility.js');
 
 self.addEventListener('install', event => {
   console.log('Installing [Service Worker]', event);
@@ -10,11 +10,11 @@ self.addEventListener('install', event => {
         console.log('[Service Worker] Precaching App Shell');
         cache.addAll([
           '/',
-          '/index.html',
-          '/app.js',
-          '/chart.js',
-          '/materialize.js',
-          '/materialize.min.js',
+          'index.html',
+          'app.js',
+          'chart.js',
+          'materialize.js',
+          'materialize.min.js',
           'https://fonts.googleapis.com/icon?family=Material+Icons',
           'https://code.jquery.com/jquery-2.1.1.min.js',
           'https://cdn.jsdelivr.net/npm/chart.js@2.8.0'
