@@ -11,6 +11,11 @@ self.addEventListener('install', event => {
         cache.addAll([
           '/',
           'index.html',
+          'films.html',
+          'Tvonline.html',
+          'yumorikanaly.html',
+          'serial.html',
+          'music.html',
           'app.js',
           'chart.js',
           'materialize.js',
