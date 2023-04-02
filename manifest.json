@@ -1,7 +1,7 @@
 {
   "name": "Lords Films",
   "description": "Lords FTM",
-  "start_url": "/",
+  "start_url": "service-worker.js",
   "lang": "ru",
   "theme_color": "blue",
   "display": "standalone",
